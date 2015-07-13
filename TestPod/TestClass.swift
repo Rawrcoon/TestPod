@@ -9,9 +9,9 @@
 import Foundation
 import FBSDKCoreKit
 
-class TestClass: NSObject {
+public class TestClass: NSObject {
 	
-	static func doStuff()
+	public static func doStuff()
 	{
 		FBSDKUtility.dictionaryWithQueryString("lol")
 	}
