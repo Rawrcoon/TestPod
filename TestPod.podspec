@@ -15,14 +15,15 @@ Pod::Spec.new do |s|
 
   s.homepage     = "http://EXAMPLE/TestPod"
   s.license      = "MIT (example)"
-  s.author             = { "Sören Busch" => "sbusch@mobivention.com" }
+  s.author             = { "Mark Oelsner" => "moelsner@mobivention.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/fleshgolem/TestPod.git", :tag => "0.0.1" }
-  s.source_files  = "Classes/TestClass.swift"
+  s.source       = { :git => "https://github.com/Rawrcoon/TestPod.git", :tag => "0.0.1" }
+  s.source_files  = "TestPod/TestClass.swift"
 
-  s.dependency "FBSDKCoreKit", "~> 4.4"
-  s.dependency "FBSDKLoginKit", "~> 4.4"
-  s.dependency "FBSDKShareKit", "~> 4.4"
+  s.dependency "Bolts"
+  s.dependency "FBSDKCoreKit"
+  s.dependency "FBSDKLoginKit"
+  s.dependency "FBSDKShareKit"
 
 end

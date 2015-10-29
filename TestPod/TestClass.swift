@@ -7,13 +7,16 @@
 //
 
 import Foundation
+import UIKit
+
+import Bolts
 import FBSDKCoreKit
 
 public class TestClass: NSObject {
 	
 	public static func doStuff()
 	{
-		FBSDKUtility.dictionaryWithQueryString("lol")
+		let _ = FBSDKProfile()
 	}
 	
 }

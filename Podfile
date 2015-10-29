@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'TestPod' do
 
+pod 'Bolts'
 pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
 pod 'FBSDKShareKit'

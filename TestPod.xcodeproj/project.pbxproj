@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B9DC51859CFE472A056831 /* Pods_TestPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38B28A5A3BBAD890BBC68B1 /* Pods_TestPod.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		00B9DC51859CFE472A056831 /* Pods_TestPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38B28A5A3BBAD890BBC68B1 /* Pods_TestPod.framework */; };
 		45E734681B53FC4800BB9A01 /* TestPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 45E734671B53FC4800BB9A01 /* TestPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45E7346E1B53FC4800BB9A01 /* TestPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E734621B53FC4800BB9A01 /* TestPod.framework */; };
 		45E734751B53FC4800BB9A01 /* TestPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E734741B53FC4800BB9A01 /* TestPodTests.m */; };
@@ -187,6 +187,7 @@
 		45E734591B53FC4800BB9A01 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = test;
 				TargetAttributes = {
